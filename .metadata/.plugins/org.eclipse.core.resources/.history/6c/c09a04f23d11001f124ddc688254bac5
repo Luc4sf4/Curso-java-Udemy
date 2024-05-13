@@ -1,0 +1,9 @@
+package fundamentos;
+
+public class interferencia {
+
+	public static void main(String[] args) {
+		
+	}
+	
+}

@@ -1,0 +1,10 @@
+package fundamentos;
+
+public class temperatura {
+	public static void main(String[] args) {
+		
+	}
+	double temperaturaF = 60;
+	
+	
+}

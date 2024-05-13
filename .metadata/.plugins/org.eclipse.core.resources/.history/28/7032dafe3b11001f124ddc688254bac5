@@ -1,0 +1,8 @@
+package fundamentos;
+
+public class temperatura {
+
+	double temperaturaF = 60;
+	
+	double 
+}

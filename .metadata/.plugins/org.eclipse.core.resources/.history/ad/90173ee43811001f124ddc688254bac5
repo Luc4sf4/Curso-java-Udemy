@@ -1,0 +1,12 @@
+package fundamentos;
+
+public class PrimeiroPrograma {
+
+	public static void main(String[] args) {
+		
+		//Uma Setença de código termina com ;
+		//mais um comentário
+		//fin
+		System.out.println("Hello World! ");
+	}
+}

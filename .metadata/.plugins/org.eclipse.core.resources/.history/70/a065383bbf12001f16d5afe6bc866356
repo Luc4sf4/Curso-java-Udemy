@@ -1,0 +1,41 @@
+package fundamentos;
+
+public class TiposPrimitivos {
+
+	public static void main(String[] args) {
+		// informações de um funcionário
+
+		// Tipos numéricos inteiros
+		// ordem dos tipos estão do maior pro maior
+		// byte é o menor deles
+
+		byte anosDeEmpresa = 23;
+		short numeroDeVoos = 542;
+		int id = 56789;
+		long pontosAcumlados = 3_234_845_223L;
+
+		// tipos numéricos reais
+
+		float salario = 11_445.44F;
+		double vendasACumuladas = 2_991_797_103.01;
+
+		// Tipo booleando
+
+		boolean estaDeFerias = false; // true
+
+		// Tipo Caractere
+		char status = 'A';// ativo
+		
+		//dias de empresa
+		System.out.println(anosDeEmpresa *365);
+		
+		//Número de Viagens
+		System.out.println(numeroDeVoos/2);
+		
+		//Pontos por real
+		System.out.println(pontosAcumlados * vendasACumuladas);
+		
+		System.out.println( id + ": ganha -> " + salario);
+		System.out.println("Férias ? " + estaDeFerias);
+	}
+}

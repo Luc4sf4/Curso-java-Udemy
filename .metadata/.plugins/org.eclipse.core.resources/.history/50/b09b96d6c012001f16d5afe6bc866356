@@ -1,0 +1,14 @@
+package fundamentos;
+
+public class NotacaPonto {
+	public static void main(String[] args) {
+		
+		String s = "Bom Dia X";
+		
+		 s = s.toUpperCase();
+		 
+		 s = s.replace("X", "Senhora");
+		 
+		System.out.println(s);
+	}
+}

@@ -1,0 +1,8 @@
+package fundamentos;
+
+public class ConversaoTipoPrimitivoNumerico {
+	public static void main(String[] args) {
+		double a = 1;
+	}
+
+}

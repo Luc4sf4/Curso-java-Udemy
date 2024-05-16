@@ -8,7 +8,7 @@ public class PrimitivOVsObejto {
 			
 			//Wrappers
 			int a = 123;
-			System.out.println();
+			System.out.println(a);
 		}
 	
 }

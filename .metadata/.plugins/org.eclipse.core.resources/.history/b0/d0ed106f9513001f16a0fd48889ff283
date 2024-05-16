@@ -1,0 +1,31 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+public class DesafioConversao {
+
+	public static void main(String[] args) {
+		Scanner tcd = new Scanner(System.in);
+		
+		System.out.println("Informe o valor do primeiro salário: ");
+		String salario1 = tcd.next();
+		
+		System.out.println("Informe o valor do segundo salário: ");
+		String salario2 = tcd.next();
+		
+		System.out.println("Informe o valor do terceiro salário: ");
+		String salario3 = tcd.next();
+		
+		
+		double numero1 = Double.parseDouble(salario1);
+		double numero2 = Double.parseDouble(salario2);
+		double numero3 = Double.parseDouble(salario3);
+		
+		double soma = numero1 + numero2 + numero3;
+		
+		System.out.println("A soma é: " + soma);
+		System.out.println("Média salarial: " + soma/3);
+		
+		tcd.close()
+	}
+}

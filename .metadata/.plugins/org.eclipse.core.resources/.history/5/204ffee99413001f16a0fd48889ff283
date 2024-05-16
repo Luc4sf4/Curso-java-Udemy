@@ -1,0 +1,15 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+public class DesafioConversao {
+	
+	public static void main(String[] args) {
+		
+	}
+	Scanner tcd = new Scanner(System.in);
+	
+	
+	String salario1 = tcd
+	
+}

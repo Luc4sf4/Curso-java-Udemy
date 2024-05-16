@@ -1,0 +1,9 @@
+package fundamentos;
+
+public class Wrapper {
+
+	public static void main(String[] args) {
+		byte b = 100;
+		by
+	}
+}

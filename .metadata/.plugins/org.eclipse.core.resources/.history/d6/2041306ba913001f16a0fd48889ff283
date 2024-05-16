@@ -1,0 +1,10 @@
+package fundamentos;
+
+public class Aritimeticos {
+	public static void main(String[] args) {
+		System.out.println(2 + 3);
+		
+		var x = 34.56;
+		double y = 
+	}
+}

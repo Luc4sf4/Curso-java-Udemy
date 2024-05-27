@@ -1,0 +1,11 @@
+package operadores;
+
+public class Ternario {
+
+	public static void main(String[] args) {
+		
+		double media = 7.6;
+		
+	}
+
+}

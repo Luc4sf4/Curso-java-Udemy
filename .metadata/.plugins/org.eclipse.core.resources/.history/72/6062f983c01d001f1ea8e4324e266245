@@ -1,0 +1,18 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+public class ExercicioIMC {
+public static void main(String[] args) {
+	
+	Scanner tcd = new Scanner(System.in);
+	
+	System.out.println();
+	double peso = tcd.nextDouble();
+	double altura = tcd.nextDouble();
+	double resultado = peso/(altura * altura);
+	
+	
+}
+	
+}

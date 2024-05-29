@@ -1,0 +1,29 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+public class ExercicioIMC {
+	public static void main(String[] args) {
+
+		Scanner tcd = new Scanner(System.in);
+
+		System.out.println("Informe o seu peso: ");
+		double peso = tcd.nextDouble();
+
+		System.out.println("Informe a sua altura(ex: 183): ");
+		double altura = tcd.nextDouble();
+
+		double resultado = peso / (altura * altura);
+
+		tcd.close();
+		
+		String imc = resultado <= 18.5 ? "Sua classificação é magreza" : "";
+		imc = resultado <= 18.5 && resultado >= 24.9 ? "Sua classificação está dentro do normal" : "";
+		imc = resultado <= 25.0 && resultado >= 29.9 ? "Sua classificação é de Sobrepeso I" : "";
+		imc = resultado <= 30.0 && resultado >= 39.9 ? "Sua classificação é de Obesidade II" : "";
+		imc = resultado <= 40.0 ? "Sua calssificação é de Obesidade III" : "";
+
+		System.out.println(imc);
+	}
+
+}

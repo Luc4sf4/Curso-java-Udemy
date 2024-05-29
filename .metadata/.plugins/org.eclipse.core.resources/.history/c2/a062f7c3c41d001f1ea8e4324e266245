@@ -1,0 +1,14 @@
+package fundamentos;
+
+import javax.swing.JOptionPane;
+
+public class ExercicioIMCJoption {
+	
+	public static void main(String[] args) {
+		String pesoJoption = JOptionPane.showInputDialog("Informe o seu peso");
+		double peso = Double.parseDouble(pesoJoption);
+		
+		String 
+	}
+	
+}

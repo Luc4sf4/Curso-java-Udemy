@@ -1,0 +1,13 @@
+package controle;
+
+import java.util.Scanner;
+
+public class WhileIndetreminado {
+	
+	public static void main(String[] args) {
+		Scanner tdc = new Scanner(System.in); 
+		ccccccccccccc
+		
+	}
+
+}

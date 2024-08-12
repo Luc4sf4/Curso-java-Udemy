@@ -1,0 +1,15 @@
+package controle;
+
+import java.util.Scanner;
+
+public class IfElseIf {
+	public static void main(String[] args) {
+		
+		Scanner tcd = new Scanner(System.in);
+		s
+		
+		
+		tcd.close();
+	}
+
+}

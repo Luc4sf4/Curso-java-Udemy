@@ -1,0 +1,13 @@
+package controle;
+
+import javax.swing.JOptionPane;
+
+public class IfElse {
+
+	public static void main(String[] args) {
+		String valor = JOptionPane.showInputDialog("Informe o número: ");
+		
+		int numr = Integer.parseInt(valor)
+		
+	}
+}

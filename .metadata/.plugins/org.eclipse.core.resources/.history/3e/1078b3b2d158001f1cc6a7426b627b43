@@ -1,0 +1,16 @@
+package controle;
+
+import java.util.Scanner;
+
+public class DesafioWhile {
+	public static void main(String[] args) {
+	
+		//usuario vai digitar uma nota 
+		//armazenar 
+		
+		Scanner tcd = new Scanner(System.in);
+		
+		
+		
+	}
+}

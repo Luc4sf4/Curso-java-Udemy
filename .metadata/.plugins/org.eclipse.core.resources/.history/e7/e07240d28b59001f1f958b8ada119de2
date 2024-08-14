@@ -1,0 +1,16 @@
+package exercicios;
+
+import java.util.Scanner;
+
+public class NumeroPrimoUsandoSwitchCase {
+	public static void main(String[] args) {
+		Scanner tcd = new Scanner(System.in);
+
+		System.out.println("Digite o numero");
+		int numero = tcd.nextInt();
+
+		switch(numer)
+
+		tcd.close();
+	}
+}

@@ -1,0 +1,13 @@
+package exercicios;
+
+import java.util.Scanner;
+
+public class ParOuImpar {
+	public static void main(String[] args) {
+	
+		Scanner tcd = new Scanner(System.in);
+		
+		int numer = tcd.nextInt();
+		
+	}
+}

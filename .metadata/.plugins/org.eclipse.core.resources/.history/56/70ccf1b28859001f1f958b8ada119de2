@@ -1,0 +1,19 @@
+package exercicios;
+
+
+
+import javax.swing.JOptionPane;
+
+public class MediaCalc {
+	public static void main(String[] args) {
+		
+		String Strnota1 = JOptionPane.showInputDialog("Insira a primeira nota ");
+		String Strnota2 = JOptionPane.showInputDialog("Insira a segunda nota ");
+		
+		Double nota1 = 
+		
+		System.out.println(nota1);
+		
+		
+	}
+}

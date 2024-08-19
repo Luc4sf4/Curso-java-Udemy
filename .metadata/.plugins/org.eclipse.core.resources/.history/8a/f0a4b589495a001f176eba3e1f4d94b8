@@ -1,0 +1,17 @@
+package classe;
+
+import java.util.Scanner;
+
+public class ProdutoTeste {
+	public static void main(String[] args) {
+
+		// Construtor = mesmo nome da classe
+		// Tipo nome = Chamada do construtor construtor();
+		Produto p1 = new Produto();
+		p1.nome = "Notebook";
+		p1.preco
+		
+		
+		var p2 = new Produto();
+	}
+}

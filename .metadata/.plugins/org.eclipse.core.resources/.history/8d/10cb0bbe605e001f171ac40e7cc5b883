@@ -6,7 +6,7 @@ public class Data {
 	int mes;
 	int ano;
 	
-	obterDataFormatada(){}
+	ob
 	
 
 }

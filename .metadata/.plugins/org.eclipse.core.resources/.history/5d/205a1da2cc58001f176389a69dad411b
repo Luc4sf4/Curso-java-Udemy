@@ -1,9 +1,0 @@
-package controle;
-
-public class DesafioWhile {
-	public static void main(String[] args) {
-	
-		//usuario vai digitar uma nota 
-		
-	}
-}

@@ -3,14 +3,19 @@ package classe;
 public class AreaCirc {
 
 	double raio;
-	double pi;
+	//associado diretamente às classes e não instancias
+	final static double PI = 3.14;
 	
 	AreaCirc(double raioInicial) {
 		raio = raioInicial;
 	}
 	
 	double area(){
-		return pi * Math.pow(raio, 2);
+		return PI * Math.pow(raio, 2);
+	}
+	
+	static double area(double raio){
+		return PI * Math.pow(raio, 2);
 	}
 	
 }

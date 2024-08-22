@@ -5,7 +5,7 @@ public class Produto {
 	// Atributo
 	String nome;
 	double preco;
-	double desconto;
+	static double desconto = 0.25;
 
 	// Construtor padrão que não receberá parametros
 	Produto() {
@@ -14,10 +14,9 @@ public class Produto {
 	
 
 	// Construtor com parametros
-	Produto(String nomeInicial, double precoInicial, double descontoInicial) {
+	Produto(String nomeInicial, double precoInicial) {
 		nome = nomeInicial;
 		preco = precoInicial;
-		desconto = descontoInicial;
 	}
 
 	double precoComDesconto() {

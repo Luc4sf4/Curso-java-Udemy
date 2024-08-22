@@ -1,0 +1,21 @@
+package classe;
+
+public class PrimeiroTrauma {
+	
+	int a = 3; //não pode mexer aqui
+	
+	static void alterarPrimitivo (int a){
+		a++;
+		}
+	
+	public static void main(String[] args) {
+		
+		int a 
+		
+		//podem mexer aqui
+		System.out.println();//podem mexer aqui
+		//podem mexer aqui
+		
+	}
+
+}

@@ -39,7 +39,7 @@ public class ValorVsReferencia {
 	}
 
 	static void alterarPrimitivo(int c){
-		c++;
+		a++;
 	}
 
 }

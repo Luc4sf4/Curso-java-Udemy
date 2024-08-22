@@ -38,8 +38,8 @@ public class ValorVsReferencia {
 		d.ano = 1970;
 	}
 
-	static void alterarPrimitivo(int c){
-		c++;
+	static void alterarPrimitivo(int a){
+		a++;
 	}
 
 }

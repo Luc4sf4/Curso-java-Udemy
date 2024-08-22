@@ -1,0 +1,12 @@
+package classe;
+
+public class AreaCirc {
+
+	double raio;
+	double pi;
+	
+	AreaCirc(double raioInicial) {
+		// TODO Auto-generated constructor stub
+	}
+	
+}

@@ -1,0 +1,29 @@
+package classe;
+
+public class Produto {
+
+	// Atributo
+	String nome;
+	double preco;
+	double desconto;
+
+	// Construtor padrão que não receberá parametros
+	Produto() {
+	}
+
+	// atributo do construtor
+	Produto(String nomeInicial) {
+		nome = nomeInicial;
+	}
+
+	// Construtor com dois parametros
+	Produto(String nomeInicial, double precoInicial) {
+		nome = nomeInicial;
+		preco = precoInicial;
+	}
+
+	double precoComDesconto() {
+		return preco * (1 - desconto);
+	}
+
+}

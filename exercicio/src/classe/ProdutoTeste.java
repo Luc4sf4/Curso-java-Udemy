@@ -6,12 +6,12 @@ public class ProdutoTeste {
 	public static void main(String[] args) {
 
 		// Construtor = mesmo nome da classe
-		// Tipo nome = Chamada do construtor construtor();
-		Produto p1 = new Produto();
-		p1.nome = "Notebook";
-		p1.preco = 4356.89;
-		p1.desconto = 0.25;
+		// Construtor que requer um parametros criado na classe Produto
+		Produto p1 = new Produto("Notebook", 4356.89, 0.25);
+		
 
+		// Tipo nome = Chamada do construtor construtor();
+		//Não quero atribuir um nome padrão
 		var p2 = new Produto();
 		p2.nome = "Caneta Preta";
 		p2.preco = 12.56;

@@ -15,6 +15,14 @@ public class Data {
 		// de um construtor para
 		// para outro construtor
 		this(1, 1, 1970);
+		
+		//byte, short, int, long -> 0
+		//float, double -> 0.0
+		// boolean -> false
+		//char -> " /u000"
+		//Objetos -> null
+		
+
 	}	
 
 	// o "this." referenciar o objeto que esta sendo criado naquele momento

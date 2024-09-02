@@ -9,8 +9,9 @@
     <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="classe.Produto"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="classe.AreaCirc"/>
-    <fullyQualifiedTypeName name="classe.Data"/>
     <fullyQualifiedTypeName name="classe.PrimeiroTrauma"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="classe.Data"/>
+    <fullyQualifiedTypeName name="classe.desafio.Comida"/>
 </qualifiedTypeNameHistroy>

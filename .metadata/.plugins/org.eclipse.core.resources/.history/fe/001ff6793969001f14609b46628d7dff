@@ -1,0 +1,14 @@
+package arrays;
+
+import java.util.Scanner;
+
+public class Matriz {
+	public static void main(String[] args) {
+		Scanner tcd = new Scanner(System.in);
+		
+		System
+		
+		tcd.close();
+	}
+
+}

@@ -8,7 +8,6 @@ INDEX VERSION 1.134+C:\Curso-java-Udemy\.metadata\.plugins\org.eclipse.jdt.core
 1063416869.index
 1281338895.index
 3365363505.index
-228123580.index
 164712972.index
 347981624.index
 2029732492.index

@@ -6,6 +6,7 @@ import java.util.Set;
 public class ConjuntoBaguncado {
 	@SuppressWarnings({ "unchecked", "rawtypes" })
 	public static void main(String[] args) {
+		@SuppressWarnings("rawtypes")
 		HashSet conjunto = new HashSet();
 
 		// possibilidade de misturar varias coisas

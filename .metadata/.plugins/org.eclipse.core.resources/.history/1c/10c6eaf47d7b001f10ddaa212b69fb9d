@@ -16,7 +16,7 @@ public class Pilha {
 		System.out.println(livros.element());
 		
 		for(String livro : livros){
-			System.out.println(livro);
+			
 		}
 		
 		System.out.println(livros.poll());

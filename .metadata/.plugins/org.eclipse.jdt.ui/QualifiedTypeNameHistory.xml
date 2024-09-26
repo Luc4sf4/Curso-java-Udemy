@@ -10,7 +10,6 @@
     <fullyQualifiedTypeName name="classe.Produto"/>
     <fullyQualifiedTypeName name="classe.AreaCirc"/>
     <fullyQualifiedTypeName name="classe.PrimeiroTrauma"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="classe.Data"/>
     <fullyQualifiedTypeName name="classe.desafio.Comida"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
@@ -20,7 +19,19 @@
     <fullyQualifiedTypeName name="java.util.TreeSet"/>
     <fullyQualifiedTypeName name="java.util.SortedSet"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.Queue"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.util.Deque"/>
+    <fullyQualifiedTypeName name="java.util.ArrayDeque"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.Map.Entry"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="colecoes.Usuario"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="oo.composicao.Carro"/>
+    <fullyQualifiedTypeName name="oo.composicao.Motor"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="oo.composicao.Compra"/>
+    <fullyQualifiedTypeName name="oo.composicao.Item"/>
 </qualifiedTypeNameHistroy>

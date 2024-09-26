@@ -15,7 +15,7 @@ public class Compra {
 		this.itens.add(item);
 		item.compra = this;
 	}
-	
+	    
 	double obterValorTotal() {
 		double total = 0;
 		

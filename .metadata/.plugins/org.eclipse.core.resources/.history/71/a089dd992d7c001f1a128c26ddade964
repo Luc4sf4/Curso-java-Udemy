@@ -1,0 +1,11 @@
+package oo.composicao.desafios;
+
+public class Item {
+	
+	int quantidade;
+	
+	Item(int quantidade){
+		this.quantidade  = quantidade;
+	}
+
+}

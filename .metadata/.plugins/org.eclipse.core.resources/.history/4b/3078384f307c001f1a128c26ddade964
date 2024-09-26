@@ -1,0 +1,18 @@
+package oo.composicao.desafios;
+
+public class ClienteTeste {
+	public static void main(String[] args) {
+		
+		Cliente cliente1 = new Cliente("Maria Julia Moraes");
+		
+		Compra c1 = new Compra();
+		c1.adicionarItem("Caneta", 9.57, 100);
+		c1.adicionarItem("NoteBook", 1897.88, 2);
+		
+		Compra c2 = new Compra();
+		c2.adicionarItem("Caderno", 9.57, 100);
+		c2.adicionarItem("NoteBook", 1897.88, 2);
+		
+	}
+
+}

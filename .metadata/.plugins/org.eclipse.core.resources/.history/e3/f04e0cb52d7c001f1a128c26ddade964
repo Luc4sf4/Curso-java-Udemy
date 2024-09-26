@@ -1,0 +1,8 @@
+package oo.composicao.desafios;
+
+public class Produto {
+	
+	String nome;
+	
+
+}

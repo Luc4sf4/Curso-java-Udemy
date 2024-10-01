@@ -1,0 +1,15 @@
+package oo.herenca;
+
+public class Jogador {
+	
+	int x;
+	int y;
+	
+
+	boolean andar(int direcao){
+		if(direcao)){
+			y++;
+		}
+		return true;
+	}
+}

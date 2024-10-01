@@ -1,0 +1,26 @@
+package oo.herenca;
+
+public class Jogador {
+	
+	int x;
+	int y;
+	
+
+	boolean andar(Direcao direcao){
+		
+		switch (direcao) {
+		case NORTE: {
+			
+			y++;
+			break;
+		}
+		default:
+			throw new IllegalArgumentException("Unexpected value: " + key);
+		}
+		
+		if(direcao == Direcao.NORTE){
+			y++;
+		}
+		return true;
+	}
+}

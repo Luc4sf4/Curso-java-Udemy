@@ -31,7 +31,15 @@
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="oo.composicao.Carro"/>
     <fullyQualifiedTypeName name="oo.composicao.Motor"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="oo.composicao.Compra"/>
     <fullyQualifiedTypeName name="oo.composicao.Item"/>
+    <fullyQualifiedTypeName name="oo.composicao.Aluno"/>
+    <fullyQualifiedTypeName name="oo.composicao.Curso"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="oo.composicao.desafios.Item"/>
+    <fullyQualifiedTypeName name="oo.composicao.desafios.Cliente"/>
+    <fullyQualifiedTypeName name="oo.composicao.desafios.Compra"/>
+    <fullyQualifiedTypeName name="oo.composicao.desafios.Produto"/>
+    <fullyQualifiedTypeName name="oo.herenca.Jogador"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,9 @@
+package oo.herenca.desafio;
+
+public class Carro {
+	
+	int velocidadeAtual = 10;
+	
+
+
+}

@@ -16,8 +16,6 @@ public class CarroTeste {
 		c1.acelarar();
 		c1.acelarar();
 		
-		System.out.println();
-		
 		c1.frear();
 		c1.frear();
 		c1.frear();

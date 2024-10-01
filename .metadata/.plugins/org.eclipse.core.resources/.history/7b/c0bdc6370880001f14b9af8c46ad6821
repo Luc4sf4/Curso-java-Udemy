@@ -1,0 +1,13 @@
+package oo.herenca.desafio;
+
+public class PistaCorrida {
+	public static void main(String[] args) {
+		
+		Civic civic = new Civic();
+		
+		civic.acelerar();
+		System.out.println("Velociadade" + civic);
+		
+	}
+
+}

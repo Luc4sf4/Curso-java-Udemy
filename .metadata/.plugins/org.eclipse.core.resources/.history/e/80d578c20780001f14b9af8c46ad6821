@@ -1,0 +1,7 @@
+package oo.herenca.desafio;
+
+public class Ferrari extends Carro{
+	
+	void acelerar
+
+}

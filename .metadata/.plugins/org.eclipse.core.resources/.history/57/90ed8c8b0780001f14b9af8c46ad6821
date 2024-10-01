@@ -1,0 +1,15 @@
+package oo.herenca.desafio;
+
+public class Carro {
+	
+	int velocidadeAtual;
+	
+	
+	boolean acelerar(int velocidade){
+
+			velocidade += 5;
+
+		return true;
+	}
+
+}

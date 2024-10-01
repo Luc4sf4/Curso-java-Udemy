@@ -8,9 +8,9 @@ public class Ferrari extends Carro{
 		
 	}
 
-//	@Override
-//	void acelerar(){
-//		super.acelerar();
-//	}
+	@Override
+	void acelerar(){
+		velocidadeAtual += 15;
+	}
 
 }

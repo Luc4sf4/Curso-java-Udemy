@@ -21,11 +21,6 @@ public class PistaCorrida {
 		civic.acelerar();
 		civic.acelerar();
 		civic.acelerar();
-		civic.acelerar();
-		civic.acelerar();
-		civic.acelerar();
-		civic.acelerar();
-		civic.acelerar();
 		
 		
 		System.out.println("Civic" + civic);

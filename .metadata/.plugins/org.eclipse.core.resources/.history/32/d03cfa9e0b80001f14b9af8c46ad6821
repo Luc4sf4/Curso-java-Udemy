@@ -14,19 +14,7 @@ public class PistaCorrida {
 		civic.acelerar();
 		civic.acelerar();
 		civic.acelerar();
-		civic.acelerar();
-		civic.acelerar();
-		civic.acelerar();
-		civic.acelerar();
-		civic.acelerar();
-		civic.acelerar();
-		civic.acelerar();
-		civic.acelerar();
-		civic.acelerar();
-		civic.acelerar();
-		civic.acelerar();
-		civic.acelerar();
-		
+		int dobrar = civic.acelerar() * 2;
 		
 		System.out.println("Civic" + civic);
 

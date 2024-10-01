@@ -1,0 +1,15 @@
+package oo.herenca.desafio;
+
+public class Ferrari extends Carro{
+	
+	Ferrari(int velocidadeMaxima) {
+		super(velocidadeMaxima);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	void acelerar(){
+		velocidadeAtual += 15;
+	}
+
+}

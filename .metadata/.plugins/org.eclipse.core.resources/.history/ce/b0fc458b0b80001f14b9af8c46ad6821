@@ -15,20 +15,8 @@ public class PistaCorrida {
 		civic.acelerar();
 		civic.acelerar();
 		civic.acelerar();
-		civic.acelerar();
-		civic.acelerar();
-		civic.acelerar();
-		civic.acelerar();
-		civic.acelerar();
-		civic.acelerar();
-		civic.acelerar();
-		civic.acelerar();
-		civic.acelerar();
-		civic.acelerar();
-		civic.acelerar();
 		
-		
-		System.out.println("Civic" + civic);
+		System.out.println(civic);
 
 		Ferrari ferrari = new Ferrari(150);
 

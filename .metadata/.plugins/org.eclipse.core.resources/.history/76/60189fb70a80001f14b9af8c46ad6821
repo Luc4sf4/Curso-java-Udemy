@@ -12,10 +12,10 @@ public class Carro {
 	}
 
 	void acelerar() {
-		if (velocidadeAtual + delta > VELOCIDADE_MAXIMA) {
+		if (velocidadeAtual + 5 > VELOCIDADE_MAXIMA) {
 			velocidadeAtual = VELOCIDADE_MAXIMA;
 		} else {
-			velocidadeAtual += delta;
+			velocidadeAtual += 5;
 		}
 
 	}

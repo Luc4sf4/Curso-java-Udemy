@@ -8,7 +8,6 @@ public class Jogo {
 		monstro.x = 10;
 		monstro.y = 10;
 		
-		//Classe filha de jogador
 		Heroi heroi = new Heroi();
 		heroi.x = 10;
 		heroi.y = 11;
@@ -23,7 +22,7 @@ public class Jogo {
 		monstro.atacar(heroi);
 		heroi.atacar(monstro);
 		
-		monstro.andar(Direcao.NORTE);
+		monstro.andar(Direcao.NORTE)
 		monstro.atacar(heroi);
 		heroi.atacar(monstro);
 		

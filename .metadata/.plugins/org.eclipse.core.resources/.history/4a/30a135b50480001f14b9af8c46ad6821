@@ -1,0 +1,24 @@
+package oo.herenca;
+
+public class Jogo {
+	public static void main(String[] args) {
+		Monstro monstro = new Monstro();
+		monstro.x = 10;
+		monstro.y = 10;
+		
+		Heroi heroi = new Heroi();
+		heroi.x = 10;
+		heroi.y = 11;
+		
+		
+		System.out.println("J1 antes do ataque " + monstro.vida);
+		System.out.println("J2 antes do ataque " + heroi.vida);
+		
+		monstro.atacar(heroi);
+		heroi.atacar(monstro);
+		
+		System.out.println("J1 depois do ataque " + monstro.vida);
+		System.out.println("J2 depois do ataque " + heroi.vida);
+	}
+
+}

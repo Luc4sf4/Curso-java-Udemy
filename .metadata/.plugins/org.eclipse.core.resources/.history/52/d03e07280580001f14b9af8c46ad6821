@@ -1,0 +1,10 @@
+package oo.herenca;
+
+public class Heroi extends Jogador {
+
+	boolean atacar(Jogador oponente) {
+		super.ataque1(oponente);
+		super.atacar(oponente);
+	}
+
+}

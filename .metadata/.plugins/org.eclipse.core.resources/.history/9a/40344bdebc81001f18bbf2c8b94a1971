@@ -1,0 +1,27 @@
+package oo.encapsulamento;
+
+public class Pessoa {
+
+	private String nome;
+	
+
+	private int idade;
+
+	public Pessoa(int idade) {
+		this.idade = idade;
+		setIdade(idade);
+	}
+
+	//getter
+	public int getIdade() {
+		return idade;
+	}
+
+	//setter
+	public void setIdade(int novaIdade) {
+		novaIdade = Math.abs(novaIdade);
+		if (novaIdade >= 0 && novaIdade<= 120) {
+			this.idade = novaIdade;
+		}
+	}
+}

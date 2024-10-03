@@ -2,12 +2,12 @@ package oo.herenca;
 
 public class Monstro extends Jogador {
 
-	Monstro(int x, int y) {
+	public Monstro(int x, int y) {
 		super(x, y);
-		
+
 	}
 
-	Monstro(){
-		this(0,0);
+	public Monstro() {
+		this(0, 0);
 	}
 }

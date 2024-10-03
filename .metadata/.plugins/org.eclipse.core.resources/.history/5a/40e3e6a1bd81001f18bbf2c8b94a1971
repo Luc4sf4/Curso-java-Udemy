@@ -10,7 +10,7 @@ public class PessoaTeste {
 		
 		System.out.println(p1.getIdade());//ler
 		System.out.println(p1);
-		System.out.println(p1.getNome());
+		System.out.println(p1.getS);
 	}
 
 }

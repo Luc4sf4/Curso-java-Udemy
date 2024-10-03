@@ -47,8 +47,4 @@ public class Pessoa {
 	public void setSobreNome(String sobreNome) {
 		this.sobreNome = sobreNome;
 	}
-	
-	public String getNomeCompleto(){
-		return getNome() + " " + getSobreNome();
-	}
 }

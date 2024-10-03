@@ -1,0 +1,15 @@
+package oo.encapsulamento.casaA;
+
+public class Paulo {
+	
+	Ana esposa = new Ana();
+
+	void testeAcessos(){
+		 segredo = "...";
+		 = "..."; // default ou pacote
+		protected String formaDeFalar = "...";
+		public String todosSabem = "...";
+		System.out.println(esposa.seg);
+	}
+	
+}

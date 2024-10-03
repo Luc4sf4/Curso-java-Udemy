@@ -1,0 +1,10 @@
+package oo.encapsulamento.casaB;
+
+public class Julia {
+	
+	private String segredo = "...";
+	String facoDentroDeCasa = "..."; // default ou pacote
+	protected String formaDeFalar = "...";
+	public String todosSabem = "...";
+
+}

@@ -28,7 +28,6 @@
     <fullyQualifiedTypeName name="java.util.Map.Entry"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="colecoes.Usuario"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="oo.composicao.Carro"/>
     <fullyQualifiedTypeName name="oo.composicao.Motor"/>
     <fullyQualifiedTypeName name="oo.composicao.Compra"/>
@@ -41,5 +40,13 @@
     <fullyQualifiedTypeName name="oo.composicao.desafios.Cliente"/>
     <fullyQualifiedTypeName name="oo.composicao.desafios.Compra"/>
     <fullyQualifiedTypeName name="oo.composicao.desafios.Produto"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="oo.herenca.Jogador"/>
+    <fullyQualifiedTypeName name="oo.herenca.Monstro"/>
+    <fullyQualifiedTypeName name="oo.herenca.Heroi"/>
+    <fullyQualifiedTypeName name="oo.herenca.Direcao"/>
+    <fullyQualifiedTypeName name="oo.herenca.desafio.Carro"/>
+    <fullyQualifiedTypeName name="oo.herenca.desafio.Civic"/>
+    <fullyQualifiedTypeName name="oo.herenca.desafio.Ferrari"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
 </qualifiedTypeNameHistroy>

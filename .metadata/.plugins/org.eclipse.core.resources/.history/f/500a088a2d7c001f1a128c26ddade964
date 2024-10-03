@@ -1,8 +1,0 @@
-package oo.composicao.desafios;
-
-public class Item {
-	
-	int quantidade;
-	
-
-}

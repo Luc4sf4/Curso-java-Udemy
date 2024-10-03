@@ -1,0 +1,8 @@
+package oo.encapsulamento.casaB;
+
+public class Julia {
+	
+	private String segredo = "...";
+	
+
+}

@@ -1,7 +1,0 @@
-package oo.encapsulamento;
-
-public class pessoa {
-	
-	public int idade;
-
-}

@@ -1,0 +1,7 @@
+package oo.herenca.desafio;
+
+public interface Esportivo {
+	
+	
+
+}

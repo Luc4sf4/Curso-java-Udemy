@@ -4,7 +4,7 @@ package lambdas;
 public interface Calculo {
 	
 	//interface funcional é um conceito que ira ajudar
-	// a criar as funções lambdas -> funções anonimas 
+	// a criar as funções lambdas
 	
 	 double executar(double a, double b);
 }

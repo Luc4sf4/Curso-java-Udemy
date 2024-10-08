@@ -1,0 +1,8 @@
+package lambdas;
+
+public class Calculoteste {
+	
+	Calculo soma = new Soma();
+	Calculo 
+	
+}

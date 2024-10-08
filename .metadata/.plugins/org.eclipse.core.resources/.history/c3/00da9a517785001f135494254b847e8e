@@ -1,0 +1,9 @@
+package lambdas;
+
+public class Calculo {
+	
+	 double executar(double a, double b){
+		
+	}
+
+}

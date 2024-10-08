@@ -1,0 +1,14 @@
+package lambdas;
+
+import java.util.function.Predicate;
+
+public class Predicato {
+	public static void main(String[] args) {
+		
+		Predicate<Produto> isCaro = prod -> false;
+		
+		Produto pro
+		System.out.println(isCaro.test(t));
+	}
+
+}

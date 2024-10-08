@@ -24,7 +24,7 @@ public class Foreach {
 		aprovados.forEach(nome -> meuImprimir(nome));
 		
 		System.out.println("\n Method Reference #02...");
-		aprovados.forEach(Foreach :: meuImprimir);//:: => referencia de um metodo
+		aprovados.forEach(Foreach ::);//:: => referencia de um metodo
 
 	}
 	

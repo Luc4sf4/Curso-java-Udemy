@@ -19,7 +19,7 @@ public class CalculoTeste2 {
 		System.out.println(calc.apply(2.0, 3.0));
 		
 		
-				 //Define o return
+				//Define o return
 		BinaryOperator<Integer> calc2 = (x, y) -> {
 			return x + y;
 		};

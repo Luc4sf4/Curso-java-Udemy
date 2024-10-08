@@ -18,17 +18,6 @@ public class CalculoTeste2 {
 		calc = (x, y) -> x * y;
 		System.out.println(calc.apply(2.0, 3.0));
 		
-		
-				 //Define o return
-		BinaryOperator<Integer> calc2 = (x, y) -> {
-			return x + y;
-		};
-		System.out.println(calc2.apply(2, 3));
-
-		calc = (x, y) -> x * y;
-		System.out.println(calc2.apply(2, 3));
-		
-		
 	
 		
 	

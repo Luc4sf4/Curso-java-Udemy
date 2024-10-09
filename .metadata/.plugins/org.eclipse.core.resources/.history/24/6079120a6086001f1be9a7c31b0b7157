@@ -1,0 +1,12 @@
+package lambdas;
+
+public class Trabalho1 implements Runnable{
+	@Override
+	public void run() {
+	for (iterable_type iterable_element : iterable) {
+		
+	}
+		
+	}
+
+}

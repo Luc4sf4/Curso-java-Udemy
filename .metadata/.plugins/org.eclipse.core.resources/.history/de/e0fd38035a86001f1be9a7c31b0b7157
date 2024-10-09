@@ -1,0 +1,9 @@
+package lambdas;
+//Predicado é uma interface funcional que recebe parametro e retorna verdadeiro ou falso 
+
+public class PredicadoComposicao {
+
+	public static void main(String[] args) {
+		
+	}
+}

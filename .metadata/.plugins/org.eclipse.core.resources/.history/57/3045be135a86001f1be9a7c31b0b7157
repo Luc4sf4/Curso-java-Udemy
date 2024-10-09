@@ -1,0 +1,13 @@
+package lambdas;
+
+import java.util.function.Predicate;
+
+//Predicado é uma interface funcional que recebe parametro e retorna verdadeiro ou falso 
+public class PredicadoComposicao {
+
+	public static void main(String[] args) {
+		
+		Predicate<Integer> isPar = num -> num % 2 ==0 ;
+		
+	}
+}

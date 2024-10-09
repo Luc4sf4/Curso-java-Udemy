@@ -1,0 +1,9 @@
+package lambdas;
+//Predicado é uma funç
+
+public class PredicadoComposicao {
+
+	public static void main(String[] args) {
+		
+	}
+}

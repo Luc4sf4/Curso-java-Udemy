@@ -1,0 +1,16 @@
+package lambdas;
+
+import java.util.function.Function;
+import java.util.function.Predicate;
+
+public class Desafio {
+	public static void main(String[] args) {
+		
+		Produto p1 = new Produto("Ipad", 3235.89, 0.13);
+		
+		Function<Produto, Double> precoFinal
+		
+		
+	}
+
+}

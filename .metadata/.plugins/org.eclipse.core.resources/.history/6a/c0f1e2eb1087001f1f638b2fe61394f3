@@ -1,0 +1,17 @@
+package streams;
+
+public class Filter {
+
+	public static void main(String[] args) {
+
+		Aluno a1 = new Aluno("Ana", 7.8);
+		Aluno a1 = new Aluno("Ana", 7.8);
+		Aluno a1 = new Aluno("Ana", 7.8);
+		Aluno a1 = new Aluno("Ana", 7.8);
+		Aluno a1 = new Aluno("Ana", 7.8);
+		Aluno a1 = new Aluno("Ana", 7.8);
+		
+
+	}
+
+}

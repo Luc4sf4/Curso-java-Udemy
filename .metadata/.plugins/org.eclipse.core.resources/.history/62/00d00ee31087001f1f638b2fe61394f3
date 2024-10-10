@@ -1,0 +1,11 @@
+package streams;
+
+public class Filter {
+
+	public static void main(String[] args) {
+
+		Aluno a1 = new Aluno("", 0);
+
+	}
+
+}

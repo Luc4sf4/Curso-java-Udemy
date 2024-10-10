@@ -1,0 +1,11 @@
+package streams;
+
+public class DesafioFilter {
+
+	public static void main(String[] args) {
+
+		Produto p1 = new Produto("Lapis", , 0, 0)
+
+	}
+
+}

@@ -20,7 +20,7 @@ public class Filter {
 		List<Aluno> alunos = Arrays.asList(a1, a2, a3, a4, a5, a6);
 		
 		Predicate<Aluno> aprovado = a -> a.nota >= 7;
-		Function<Aluno, String> saudacaoAprovado = a -> "Parabéns " + a.nome + " !está aprovado(a)";
+		Function<Aluno, String> saudacaoAprovado = a -> "Parabéns " + a.nome + " ! está aprovado(a)";
 		Predicate<Aluno> faltas = a -> a.faltas < 10;
 		Predicate<Aluno> tarefasFeitas = a -> a.qtdTarefas > 2;
 		

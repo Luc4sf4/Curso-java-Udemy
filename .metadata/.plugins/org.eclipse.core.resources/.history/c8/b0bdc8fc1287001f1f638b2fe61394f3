@@ -26,8 +26,7 @@ public class Filter {
 		
 		alunos.stream()
 		.filter(aprovado)
-		.filter(faltas)
-		.filter(tarefasFeitas)
+		.filter(faltas )
 		.map(saudacaoAprovado)
 		.forEach(System.out::println);;
 

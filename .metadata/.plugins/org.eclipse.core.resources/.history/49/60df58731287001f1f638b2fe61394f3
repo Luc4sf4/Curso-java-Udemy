@@ -8,12 +8,9 @@ public class Aluno {
 	final int faltas;
 	
 	
-	public Aluno(String nome, double nota, int qtdTarefas, int faltas) {
+	public Aluno(String nome, double nota) {
 		this.nome = nome;
 		this.nota = nota;
-		this.qtdTarefas = qtdTarefas;
-		this.faltas = faltas;
-		
 	}
 
 }

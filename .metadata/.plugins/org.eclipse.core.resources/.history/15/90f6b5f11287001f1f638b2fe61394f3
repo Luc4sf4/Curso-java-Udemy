@@ -22,12 +22,11 @@ public class Filter {
 		Predicate<Aluno> aprovado = a -> a.nota >= 7;
 		Function<Aluno, String> saudacaoAprovado = a -> "Parabéns " + a.nome + " !está aprovado(a)";
 		Predicate<Aluno> faltas = a -> a.faltas < 10;
-		Predicate<Aluno> tarefasFeitas = a -> a.qtdTarefas > 2;
+		Predicate<Aluno> tarefasFeitas = a -> a.qtdTarefas >= 10
 		
 		alunos.stream()
 		.filter(aprovado)
-		.filter(faltas)
-		.filter(tarefasFeitas)
+		.filter(faltas )
 		.map(saudacaoAprovado)
 		.forEach(System.out::println);;
 

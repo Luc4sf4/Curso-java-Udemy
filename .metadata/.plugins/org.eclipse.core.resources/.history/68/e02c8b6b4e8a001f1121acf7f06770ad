@@ -27,7 +27,7 @@ public class Aluno {
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
-		return nome + " tem nota " + nota;
+		return nome + " tem nota" + nota;
 	}
 
 	@Override

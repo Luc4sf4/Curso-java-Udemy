@@ -1,0 +1,10 @@
+package excecao.personalizadaB;
+
+public class Finally {
+	
+	try {}private void cat() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

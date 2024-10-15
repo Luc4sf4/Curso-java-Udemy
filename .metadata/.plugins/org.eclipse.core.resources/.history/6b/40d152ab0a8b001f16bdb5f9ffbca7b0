@@ -1,0 +1,15 @@
+package excecao.personalizadaB;
+
+import java.util.Scanner;
+
+public class Finally {
+	
+	try {
+		Scanner tcd = n
+		
+	}private void cat() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

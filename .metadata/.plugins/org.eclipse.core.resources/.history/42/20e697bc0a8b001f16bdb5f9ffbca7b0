@@ -1,0 +1,19 @@
+package excecao.personalizadaB;
+
+import java.util.Scanner;
+
+public class Finally {
+	
+	try {
+		Scanner tcd = new Scanner(System.in);
+		
+		System.out.println(7 / tcd.nextInt());
+		
+		tcd.close();
+		
+	}private void cat() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

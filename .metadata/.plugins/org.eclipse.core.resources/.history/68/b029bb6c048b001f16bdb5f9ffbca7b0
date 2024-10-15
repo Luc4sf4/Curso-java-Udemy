@@ -1,0 +1,13 @@
+package excecao;
+
+public class ChecadaVsNaoChecada {
+	public static void main(String[] args) {
+
+	}
+
+	static void geraErro1() {
+	}
+
+	static void geraErro2() {
+	}
+}

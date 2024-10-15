@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="oo.herenca.Heroi"/>
-    <fullyQualifiedTypeName name="oo.herenca.Direcao"/>
-    <fullyQualifiedTypeName name="oo.herenca.desafio.Civic"/>
-    <fullyQualifiedTypeName name="oo.encapsulamento.casaA.Ana"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
-    <fullyQualifiedTypeName name="classe.desafio.Pessoa"/>
-    <fullyQualifiedTypeName name="oo.encapsulamento.PessoaTeste"/>
-    <fullyQualifiedTypeName name="oo.encapsulamento.Pessoa"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
-    <fullyQualifiedTypeName name="oo.polimorfismo.Feijao"/>
-    <fullyQualifiedTypeName name="oo.polimorfismo.Pessoa"/>
     <fullyQualifiedTypeName name="oo.polimorfismo.Arroz"/>
     <fullyQualifiedTypeName name="oo.polimorfismo.Sorvete"/>
     <fullyQualifiedTypeName name="oo.herenca.desafio.Esportivo"/>
@@ -32,7 +21,6 @@
     <fullyQualifiedTypeName name="java.lang.Double"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
     <fullyQualifiedTypeName name="lambdas.Trabalho1"/>
-    <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="java.lang.Runnable"/>
     <fullyQualifiedTypeName name="lambdas.Threads"/>
@@ -57,7 +45,19 @@
     <fullyQualifiedTypeName name="java.util.function.Function"/>
     <fullyQualifiedTypeName name="java.util.function.BiFunction"/>
     <fullyQualifiedTypeName name="java.util.function.BinaryOperator"/>
-    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
     <fullyQualifiedTypeName name="streams.Media"/>
     <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="org.junit.vintage.engine.descriptor.RunnerTestDescriptor"/>
+    <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthToggleButtonUI"/>
+    <fullyQualifiedTypeName name="java.lang.Throwable"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="excecao.personalizadaA.NumeroForaIntervaloException"/>
+    <fullyQualifiedTypeName name="excecao.personalizadaA.StringVaziaException"/>
+    <fullyQualifiedTypeName name="excecao.personalizadaB.StringVaziaException"/>
+    <fullyQualifiedTypeName name="excecao.personalizadaB.NumeroForaIntervaloException"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="excecao.Aluno"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
 </qualifiedTypeNameHistroy>

@@ -1,8 +1,0 @@
-package lambdas;
-
-public class Predicato {
-	public static void main(String[] args) {
-		
-	}
-
-}

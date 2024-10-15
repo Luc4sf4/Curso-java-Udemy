@@ -1,9 +1,0 @@
-package lambdas;
-
-@FunctionalInterface // só pode ter apenas um método
-public interface Calculo {
-	
-	//
-	
-	 double executar(double a, double b);
-}

@@ -1,0 +1,9 @@
+package excecao.personalizadaA;
+
+public class Validar {
+	
+	private Validar() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

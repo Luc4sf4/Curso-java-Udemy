@@ -1,0 +1,19 @@
+package excecao.personalizadaA;
+
+
+@SuppressWarnings("serial")
+public class NumeroNegaticoException extends RuntimeException{
+	
+	private String nomeDoAtributo;
+	
+	public NumeroNegaticoException(String nomeDoAtributo) {
+		this.nomeDoAtributo = nomeDoAtributo;
+	}
+	
+	@Override
+	public String getMessage() {
+
+		return super.getMessage();
+	}
+
+}

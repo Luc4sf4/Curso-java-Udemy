@@ -1,0 +1,13 @@
+package excecao.personalizadaA;
+
+
+@SuppressWarnings("serial")
+public class NumeroNegaticoException extends RuntimeException{
+	
+	private String nomeDoAtributoString;
+	
+	public NumeroNegaticoException(String nomeDoAtributo) {
+		// TODO Auto-generated constructor stub
+	}
+
+}

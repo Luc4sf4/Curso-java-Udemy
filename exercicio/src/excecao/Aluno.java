@@ -4,11 +4,11 @@ import java.util.Objects;
 
 public class Aluno {
 	
-	final String nome;
-	final double nota;
-	final int qtdTarefas;
-	final int faltas;
-	final boolean bomComportamento;
+	public final String nome;
+	public final double nota;
+	public final int qtdTarefas;
+	public final int faltas;
+	public final boolean bomComportamento;
 	
 	
 	public Aluno(String nome, double nota) {

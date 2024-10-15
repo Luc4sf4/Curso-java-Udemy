@@ -1,0 +1,12 @@
+package excecao.personalizadaB;
+
+import excecao.Aluno;
+
+public class Causa {
+
+	public static void main(String[] args) {
+		
+	}
+	
+	static void metodoA(Aluno aluno) {}
+}

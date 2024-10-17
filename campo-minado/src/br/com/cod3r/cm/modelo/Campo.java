@@ -38,11 +38,10 @@ public class Campo {
 			return true;
 		} else {
 			return false;
-		}
-
+		} 
 	}
 
-	void alterMarcacao() {
+	void alternarMarcacao() {
 		if (!aberto) {
 			marcado = !marcado;
 		}
@@ -52,7 +51,7 @@ public class Campo {
 
 		if (!aberto && !marcado) {
 			aberto = true;
-			
+
 			if (minado) {
 				throw new ExplosaoException();
 			}
@@ -60,17 +59,33 @@ public class Campo {
 			if (vizinhaSegura()) {
 				vizinhos.forEach(v -> v.abrir());
 			}
-			
+
 			return true;
-		}else{
+		} else {
 			return false;
 		}
 
-		
 	}
 
 	boolean vizinhaSegura() {
 		return vizinhos.stream().noneMatch(v -> v.minado);
 	}
 
+	void minar(){
+		minado = true;
+	}
+	
+	public boolean isMarcado(){
+		return marcado;
+	}
+	
+	
+	public boolean isAberto(){
+		return aberto;
+	}
+	
+	public boolean isFechado(){
+		return !isAberto();
+	}
+	
 }

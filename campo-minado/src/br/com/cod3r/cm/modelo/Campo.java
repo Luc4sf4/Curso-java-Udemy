@@ -48,23 +48,18 @@ public class Campo {
 	}
 
 	boolean abrir() {
-
-		if (!aberto && !marcado) {
+		if (!isAberto() && !marcado) {
 			aberto = true;
-
 			if (minado) {
 				throw new ExplosaoException();
 			}
-
 			if (vizinhaSegura()) {
 				vizinhos.forEach(v -> v.abrir());
 			}
-
 			return true;
 		} else {
 			return false;
 		}
-
 	}
 
 	boolean vizinhaSegura() {
@@ -75,10 +70,10 @@ public class Campo {
 		minado = true;
 	}
 
-	public boolean isMinado(){
+	public boolean isMinado() {
 		return minado;
 	}
-	
+
 	public boolean isMarcado() {
 		return marcado;
 	}
@@ -115,20 +110,18 @@ public class Campo {
 		marcado = false;
 	}
 
-	@Override
 	public String toString() {
-		if(marcado){
+		if (marcado) {
 			return "x";
-		}else if(aberto && minado){
+		} else if (aberto && minado) {
 			return "*";
-		}else if(aberto && minasNaVizinhanca() > 0){
+		} else if (aberto && minasNaVizinhanca() > 0) {
 			return Long.toString(minasNaVizinhanca());
-		}else if(aberto) {
-			return "";
-		}else{
+		} else if (aberto) {
+			return " ";
+		} else {
 			return "?";
 		}
 	}
-	
-	
+
 }

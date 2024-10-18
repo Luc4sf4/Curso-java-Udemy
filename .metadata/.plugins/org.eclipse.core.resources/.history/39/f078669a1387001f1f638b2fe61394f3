@@ -1,8 +1,0 @@
-package streams;
-
-public class Produto {
-	String nome;
-	String preco;
-	String
-
-}

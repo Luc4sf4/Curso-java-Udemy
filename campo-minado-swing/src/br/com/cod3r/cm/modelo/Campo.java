@@ -2,7 +2,8 @@ package br.com.cod3r.cm.modelo;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.function.BiConsumer;
+
+import br.com.cod3r.cm.excecao.ExplosaoException;
 
 public class Campo {
 
@@ -14,20 +15,10 @@ public class Campo {
 	private boolean marcado = false;
 
 	private List<Campo> vizinhos = new ArrayList<Campo>();
-	private List<CampoObservador> observadores = new ArrayList<>();
-	private List<BiConsumer<Campo, CampoEvento>> observadores2 = new ArrayList<BiConsumer<Campo,CampoEvento>>();
 
 	Campo(int linha, int coluna) {
 		this.linha = linha;
 		this.coluna = coluna;
-	}
-	
-	public void registrarObservador(CampoObservador observador) {
-		observadores.add(observador);
-	}
-	
-	private void notificarObservadores(CampoEvento evento){
-		observadores.stream().forEach(o-> o.eventoOcorreu(this, evento));
 	}
 
 	boolean adicionarVizinho(Campo vizinho) {
@@ -53,28 +44,15 @@ public class Campo {
 	void alternarMarcacao() {
 		if (!aberto) {
 			marcado = !marcado;
-			
-			if(marcado){
-				notificarObservadores(CampoEvento.MARCAR);
-			}else{
-				notificarObservadores(CampoEvento.DESMARCAR);
-			}
 		}
 	}
 
 	boolean abrir() {
 		if (!isAberto() && !marcado) {
-			
+			aberto = true;
 			if (minado) {
-				//TODO implementar nova versão
-				notificarObservadores(CampoEvento.EXPLODIR);
-				return true;
+				throw new ExplosaoException();
 			}
-			
-			setAberto(true);
-			
-			
-			
 			if (vizinhaSegura()) {
 				vizinhos.forEach(v -> v.abrir());
 			}
@@ -109,10 +87,6 @@ public class Campo {
 	
 	public void setAberto(boolean aberto) {
 		this.aberto = aberto;
-		
-		if(aberto){
-			notificarObservadores(CampoEvento.ABRIR);
-		}
 	}
 
 	public boolean isFechado() {
@@ -143,6 +117,18 @@ public class Campo {
 		marcado = false;
 	}
 
-	
+	public String toString() {
+		if (marcado) {
+			return "x";
+		} else if (aberto && minado) {
+			return "*";
+		} else if (aberto && minasNaVizinhanca() > 0) {
+			return Long.toString(minasNaVizinhanca());
+		} else if (aberto) {
+			return " ";
+		} else {
+			return "?";
+		}
+	}
 
 }

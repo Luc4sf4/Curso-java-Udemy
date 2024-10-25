@@ -22,5 +22,4 @@ INDEX VERSION 1.134+C:\Curso-java-Udemy\.metadata\.plugins\org.eclipse.jdt.core
 1865797976.index
 894514422.index
 1341219747.index
-3838006238.index
 620460145.index

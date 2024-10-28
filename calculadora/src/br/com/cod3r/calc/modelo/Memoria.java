@@ -37,23 +37,53 @@ public class Memoria {
 	public void processarComando(String texto) {
 
 		TipoComando tipoComando = detectarTipoComando(texto);
-		
 
 		if (tipoComando == null) {
 			return;
-		}else if(tipoComando == TipoComando.ZERAR ){
-			textoAtual ="";
+		} else if (tipoComando == TipoComando.ZERAR) {
+			textoAtual = "";
 			textoBuffer = "";
 			substituir = false;
 			ultimaOperacao = null;
-		}else if(tipoComando == TipoComando.NUMERO || tipoComando ==  TipoComando.VIRGULA){
+		} else if (tipoComando == TipoComando.NUMERO || tipoComando == TipoComando.VIRGULA) {
 			textoAtual = substituir ? texto : textoAtual + texto;
 			substituir = false;
-		}else{
-			
+		} else {
+			substituir = true;
+			textoAtual = obterResultadoOperacao();
+			textoBuffer = textoAtual;
+			ultimaOperacao = tipoComando;
 		}
 
 		observadores.forEach(o -> o.valorAlterado(getTextoAtual()));
+	}
+
+	private String obterResultadoOperacao() {
+		if (ultimaOperacao == null) {
+			return textoAtual;
+		}
+
+		double numeroBuffer = Double.parseDouble(textoBuffer.replace(",", "."));
+		double numeroAtual = Double.parseDouble(textoAtual.replace(",", "."));
+
+		double resultado = 0;
+
+		if (ultimaOperacao == TipoComando.SOMA) {
+			resultado = numeroBuffer + numeroAtual;
+		} else if (ultimaOperacao == TipoComando.SUB) {
+			resultado = numeroBuffer - numeroAtual;
+		} else if (ultimaOperacao == TipoComando.DIV) {
+			resultado = numeroBuffer / numeroAtual;
+		} else if (ultimaOperacao == TipoComando.MULT) {
+			resultado = numeroBuffer * numeroAtual;
+		}
+		
+		String resultadoString = Double.toString(resultado).replace(".", ",");
+		
+		boolean inteiro = resultadoString.endsWith(",0");
+		
+		
+		return inteiro ? resultadoString.replace(",0", "") : resultadoString;
 	}
 
 	private TipoComando detectarTipoComando(String texto) {

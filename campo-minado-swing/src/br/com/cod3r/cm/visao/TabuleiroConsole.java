@@ -48,19 +48,19 @@ public class TabuleiroConsole {
 
 				String digitado = capturarValorDigitado("Digite (x, y): ");
 
-				Iterator<Integer> xy = Arrays.stream(digitado.split(","))
-				.map(e -> Integer.parseInt(e.trim())).iterator();
-				
-				digitado = capturarValorDigitado("1- abrir ou 2 -(Des) Marcar: "); 
-				
-				if("1".equalsIgnoreCase(digitado)){
+				Iterator<Integer> xy = Arrays.stream(digitado.split(",")).map(e -> Integer.parseInt(e.trim()))
+						.iterator();
+
+				digitado = capturarValorDigitado("1- abrir ou 2 -(Des) Marcar: ");
+
+				if ("1".equalsIgnoreCase(digitado)) {
 					tabuleiro.abrir(xy.next(), xy.next());
-				}else if("2".equalsIgnoreCase(digitado)){
+				} else if ("2".equalsIgnoreCase(digitado)) {
 					tabuleiro.alternarMarcacao(xy.next(), xy.next());
 				}
-				
+
 				System.out.println();
-				
+
 			}
 			System.out.println("Você ganhou!!");
 		} catch (ExplosaoException e) {

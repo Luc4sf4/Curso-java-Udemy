@@ -9,3 +9,5 @@ create table estados(
     UNIQUE KEY(nome),
     UNIQUE KEY(sigla)
 );
+
+

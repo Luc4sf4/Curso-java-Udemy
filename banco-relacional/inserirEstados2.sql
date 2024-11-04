@@ -27,10 +27,3 @@ VALUES
     ('Tocantins', 'TO', 'Norte', 1.55);
 
 
--- Exemplo de Insert 2
-INSERT INTO estados 
-    (nome, sigla, regiao, populacao)
-VALUES
-    ('Alagoas', 'AL', 'Nordeste', 3.38),
-    ('Amapá', 'AP', 'Norte', 0.8),
-    ('Amazonas', 'AM', 'Norte', 4.06);

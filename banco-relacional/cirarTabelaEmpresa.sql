@@ -1,5 +1,5 @@
 CREATE TABLE IF NOT EXISTS empresas(
-    id int unsigned not null,
+    id int unsigned not null auto_increment,
     nome varchar(255) not null,
     cnpj int unsigned,
     PRIMARY key (id),
@@ -13,3 +13,5 @@ create table IF NOT EXISTS empresas_unidades(
     sede tinyint(1) not null,
     PRIMARY key (empresa_id, cidade_id)
 );
+
+drop TABLE empresas

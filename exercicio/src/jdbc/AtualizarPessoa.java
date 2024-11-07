@@ -35,7 +35,7 @@ public class AtualizarPessoa {
 			Pessoa p = new Pessoa(r.getInt(1), r.getString(2));
 			//Mostra o nome da pessoa
 			System.out.println("O nome atual é " + p.getNome());
-			tcd.nextLine();
+		    tcd.nextLine();
 			
 			
 			System.out.println("Informe o novo nome: ");

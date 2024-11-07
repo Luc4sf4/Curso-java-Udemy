@@ -27,6 +27,18 @@ public class DAO {
 		}
 	}
 
+	public void close() {
+		try {
+			getConexao().close();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} finally{
+			conexao = null;
+		}
+		
+	}
+	
 	private void adicionarAtributos(PreparedStatement stmt, Object[] atributos) throws SQLException {
 
 		int indice = 1;

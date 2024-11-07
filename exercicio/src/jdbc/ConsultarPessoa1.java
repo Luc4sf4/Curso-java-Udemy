@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ConsultarPessoa1 {
-
+ 
 	public static void main(String[] args) throws SQLException {
 
 		Connection conexao  = FabricaConexao.getConexao();

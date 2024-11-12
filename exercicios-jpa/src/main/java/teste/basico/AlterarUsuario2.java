@@ -35,6 +35,8 @@ public class AlterarUsuario2 {
 		
 		em.close();
 		emf.close();
+		
+		
 
 	}
 

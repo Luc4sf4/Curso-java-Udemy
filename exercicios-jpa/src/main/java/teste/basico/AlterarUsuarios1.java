@@ -15,7 +15,7 @@ public class AlterarUsuarios1 {
 		em.getTransaction().begin();
 		
 		Usuario usuario = em.find(Usuario.class, 7l);
-		usuario.setNome("Leonardo");
+		usuario.setNome("Leonardo Leitao");
 		usuario.setEmail("leonardo@lanche.com.br");
 		
 		//comando de alteração

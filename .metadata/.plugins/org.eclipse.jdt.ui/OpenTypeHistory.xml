@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy/>
+<typeInfoHistroy>
+    <typeInfo handle="=exercicios-jpa/libs\/hibernate-core-5.4.8.Final.jar&lt;org.hibernate.jpa(HibernatePersistenceProvider.class[HibernatePersistenceProvider" modifiers="33" timestamp="1572294530000"/>
+    <typeInfo handle="=exercicio/libs\/mysql-connector-j-9.1.0.jar&lt;com.mysql.cj.jdbc(Driver.class[Driver" modifiers="33" timestamp="1730900047777"/>
+    <typeInfo handle="=exercicio/libs\/mysql-connector-j-9.1.0.jar&lt;com.mysql.jdbc(Driver.class[Driver" modifiers="33" timestamp="1730900047777"/>
+    <typeInfo handle="=exercicios-jpa/libs\/hibernate-core-5.4.8.Final.jar&lt;org.hibernate.dialect(MySQL57Dialect.class[MySQL57Dialect" modifiers="33" timestamp="1572294530000"/>
+</typeInfoHistroy>

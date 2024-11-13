@@ -7,8 +7,6 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 import javax.persistence.TypedQuery;
 
-import modelo.basico.Produto;
-
 public class DAO<E> {
 	
 	private static EntityManagerFactory emf;
@@ -19,7 +17,7 @@ public class DAO<E> {
 		try {
 			emf = Persistence.createEntityManagerFactory("exercicios-jpa");
 		} catch (Exception e) {
-			// TODO: handle exception
+			
 		}
 	}
 	
@@ -65,7 +63,7 @@ public class DAO<E> {
 			throw new UnsupportedOperationException("Classe nula");
 		}
 		
-		String jpql = "select e from" +  classe.getName() + " e";
+		String jpql = "select e from " +  classe.getName() + " e";
 		TypedQuery<E> query = em.createQuery(jpql, classe);
 		query.setMaxResults(qtde);
 		query.setFirstResult(deslocamento);

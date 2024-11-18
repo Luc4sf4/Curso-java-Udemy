@@ -15,3 +15,11 @@ create table IF NOT EXISTS empresas_unidades(
 );
 
 drop TABLE empresas
+
+
+create table materias(
+    id int not unsigned not null,
+    nome varchar (50),
+    preco DECIMAL(10,2),
+    PRIMARY key (id)
+);

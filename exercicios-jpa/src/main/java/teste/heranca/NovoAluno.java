@@ -16,7 +16,7 @@ public class NovoAluno {
 		alunoDAO.incluirAtomico(aluno1);
 		alunoDAO.incluirAtomico(aluno2);
 		
-		alunoDAO.fechar();
+		alunoDAO.fechar(); 
 	}
 
 }

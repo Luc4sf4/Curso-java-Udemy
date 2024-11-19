@@ -10,6 +10,8 @@ import br.com.cod3r.app.calculo.interno.OperacoesAritimeticas;
 public class Teste {
 
 	public static void main(String[] args) {
+	
+		
 		Calculadora calc = new Calculadora();
 
 		System.out.println(calc.soma(2, 3, 4));
@@ -28,8 +30,6 @@ public class Teste {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-
-		System.out.println();
 
 	}
 

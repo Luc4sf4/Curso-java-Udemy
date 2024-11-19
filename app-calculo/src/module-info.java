@@ -10,4 +10,4 @@ module app.calculo {
 	
 	requires app.api;
 	provides br.com.cod3r.app.Calculadora with br.com.cod3r.app.calculo.CalculadoraImpl;
-}
+} 

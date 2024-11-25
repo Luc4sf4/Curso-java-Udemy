@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="javax.swing.JButton"/>
-    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
-    <fullyQualifiedTypeName name="br.com.cod3r.calc.modelo.MemoriaObservador"/>
-    <fullyQualifiedTypeName name="br.com.cod3r.calc.modelo.Memoria"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
-    <fullyQualifiedTypeName name="java.lang.Double"/>
-    <fullyQualifiedTypeName name="br.com.cod3r.calc.modelo.Memoria.TipoComando"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.util.Properties"/>
-    <fullyQualifiedTypeName name="java.io.InputStream"/>
-    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
-    <fullyQualifiedTypeName name="java.sql.Connection"/>
-    <fullyQualifiedTypeName name="jdbc.FabricaConexao"/>
-    <fullyQualifiedTypeName name="java.sql.SQLException"/>
     <fullyQualifiedTypeName name="javax.management.RuntimeErrorException"/>
     <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
@@ -24,7 +10,6 @@
     <fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
     <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
     <fullyQualifiedTypeName name="javax.persistence.Persistence"/>
-    <fullyQualifiedTypeName name="java.lang.Class"/>
     <fullyQualifiedTypeName name="java.lang.UnsupportedOperationException"/>
     <fullyQualifiedTypeName name="infra.ProdutoDAO"/>
     <fullyQualifiedTypeName name="modelo.umpraum.Assento"/>
@@ -33,7 +18,6 @@
     <fullyQualifiedTypeName name="modelo.umpramuitors.Pedido"/>
     <fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
     <fullyQualifiedTypeName name="javax.persistence.Column"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="modelo.basico.Produto"/>
     <fullyQualifiedTypeName name="javax.persistence.OneToOne"/>
     <fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
@@ -52,7 +36,6 @@
     <fullyQualifiedTypeName name="modelo.muitospramuitos.Ator"/>
     <fullyQualifiedTypeName name="infra.DAO"/>
     <fullyQualifiedTypeName name="modelo.muitospramuitos.Filme"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="modelo.consulta.NotaFilme"/>
     <fullyQualifiedTypeName name="javax.persistence.Table"/>
     <fullyQualifiedTypeName name="javax.persistence.Id"/>
@@ -60,4 +43,21 @@
     <fullyQualifiedTypeName name="javax.persistence.Entity"/>
     <fullyQualifiedTypeName name="javax.persistence.Embeddable"/>
     <fullyQualifiedTypeName name="modelo.composicao.Endereco"/>
+    <fullyQualifiedTypeName name="br.com.cod3r.app.calculo.calculadora"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.lang.Class"/>
+    <fullyQualifiedTypeName name="br.com.cod3r.app.loggin.Logger"/>
+    <fullyQualifiedTypeName name="br.com.cod3r.app.calculo.interno.OperacoesAritimeticas"/>
+    <fullyQualifiedTypeName name="br.com.cod3r.app.calculo.Calculadora"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="br.com.cod3r.app.financeiro.superHeroi"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="br.com.cod3r.app.financeiro.Calc"/>
+    <fullyQualifiedTypeName name="br.com.cod3r.app.financeiro.CalcImpl1"/>
+    <fullyQualifiedTypeName name="br.com.cod3r.app.calculo.CalculadoraImpl"/>
+    <fullyQualifiedTypeName name="java.util.ServiceLoader"/>
+    <fullyQualifiedTypeName name="br.com.cod3r.app.Calculadora"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Field"/>
 </qualifiedTypeNameHistroy>

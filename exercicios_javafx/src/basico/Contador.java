@@ -10,39 +10,49 @@ import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 public class Contador extends Application {
-	
+
+	private int contador = 0;
+
 	@Override
 	public void start(Stage primaryStage) throws Exception {
-		
-		
+
 		Label labelTitulo = new Label("Contador");
 		Label labelNumero = new Label("0");
-		
+
 		Button buttonIncremento = new Button("+");
 		Button buttonDecremento = new Button("-");
-		
+		buttonDecremento.setOnAction(e -> {
+			contador--;
+			labelNumero.setText(Integer.toString(contador));
+		});
+
+		buttonIncremento.setOnAction(e -> {
+			contador++;
+			labelNumero.setText(Integer.toString(contador));
+		});
+
 		HBox boxBotoes = new HBox();
 		boxBotoes.setAlignment(Pos.CENTER);
 		boxBotoes.setSpacing(10);
 		boxBotoes.getChildren().add(buttonDecremento);
 		boxBotoes.getChildren().add(buttonIncremento);
-		
+
 		VBox boxPrincipal = new VBox();
 		boxBotoes.setSpacing(10);
 		boxPrincipal.setAlignment(Pos.CENTER);
 		boxPrincipal.getChildren().add(labelTitulo);
 		boxPrincipal.getChildren().add(labelNumero);
 		boxPrincipal.getChildren().add(boxBotoes);
-		
+
 		Scene cenaPrincipal = new Scene(boxPrincipal, 400, 400);
-		
+
 		primaryStage.setScene(cenaPrincipal);
 		primaryStage.show();
-		
+
 	}
-	
+
 	public static void main(String[] args) {
-		
+
 		launch(args);
 	}
 

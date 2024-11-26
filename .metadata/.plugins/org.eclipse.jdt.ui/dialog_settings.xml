@@ -9,6 +9,7 @@
 	<item key="TypeHierarchyViewPart.linkeditors" value="false"/>
 	<item key="TypeHierarchyViewPart.orientation" value="3"/>
 	<item key="org.eclipse.jdt.ui.last.selected.project.jre" value="jdk-21"/>
+	<item key="org.eclipse.jdt.ui.lastextjar" value="C:\openjfx-23.0.1_windows-x64_bin-sdk\javafx-sdk-23.0.1\lib"/>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item key="group_libraries" value="true"/>
 		<item key="layout" value="2"/>
@@ -26,10 +27,10 @@
 	<section name="JavaElementSearchActions">
 	</section>
 	<section name="BuildPathsPropertyPage">
-		<item key="pageIndex" value="1"/>
+		<item key="pageIndex" value="2"/>
 	</section>
 	<section name="ClasspathContainerSelectionPage">
-		<item key="index" value="4"/>
+		<item key="index" value="8"/>
 	</section>
 	<section name="JavaBuildConfigurationBlock">
 		<item key="expanded0" value="true"/>

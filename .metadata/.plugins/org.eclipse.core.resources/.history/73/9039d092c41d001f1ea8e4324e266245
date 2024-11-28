@@ -1,9 +1,0 @@
-package fundamentos;
-
-public class ExercicioIMCJoption {
-	
-	public static void main(String[] args) {
-		
-	}
-	
-}

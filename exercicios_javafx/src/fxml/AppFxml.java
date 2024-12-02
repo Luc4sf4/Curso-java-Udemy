@@ -16,14 +16,14 @@ public class AppFxml extends Application {
 		URL arquivoFXML = getClass().getResource("/fxml/Login.fxml");
 		GridPane raiz =  FXMLLoader.load(arquivoFXML);
 		
-		Scene cena = new Scene(raiz, 350, 400);
+		Scene cena = new Scene(raiz, 350, 350);
 		cena.getStylesheets().add(arquivoCSS);
 		
 		primaryStage.setResizable(false);
 		primaryStage.setTitle("Tela de login");
 		primaryStage.setScene(cena);
 		primaryStage.show();
-	}
+	} 
 	
 	public static void main(String[] args) {
 		launch(args);

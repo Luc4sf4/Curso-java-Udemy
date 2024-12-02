@@ -9,18 +9,25 @@
 	vgap="15">
 
 	<padding>
-		<Insets left="40" right="40" top="40" />
+		<Insets left="40" right="40" top="40" bottom="40" />
 	</padding>
 
 	<columnConstraints>
 		<ColumnConstraints minWidth="90" prefWidth="90"
-		halignment="right"/>
-		<ColumnConstraints prefWidth="200" maxWidth="Infinity" hgrow="ALWAYS" />
+			halignment="right" />
+		<ColumnConstraints prefWidth="200"
+			maxWidth="Infinity" hgrow="ALWAYS" />
 	</columnConstraints>
 
 	<Label text="Seja Bem vindo" styleClass="login-titulo"
 		GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.columnSpan="2"
-		GridPane.halignment="CENTER"></Label>
+		GridPane.halignment="CENTER">
+
+		<GridPane.margin>
+			<Insets bottom="20" top="20" />
+		</GridPane.margin>
+
+	</Label>
 	<Label text="Email" GridPane.columnIndex="0"
 		styleClass="login-form-label" GridPane.rowIndex="1"></Label>
 	<TextField fx:id="campoEmail" GridPane.columnIndex="1"
@@ -34,6 +41,10 @@
 	<Button text="Entrar" GridPane.columnIndex="0"
 		styleClass="login-form-botao" GridPane.rowIndex="3" onAction="#entrar"
 		GridPane.columnSpan="2" GridPane.halignment="CENTER">
+
+		<GridPane.margin>
+			<Insets bottom="20" top="20" />
+		</GridPane.margin>
 
 	</Button>
 </GridPane>

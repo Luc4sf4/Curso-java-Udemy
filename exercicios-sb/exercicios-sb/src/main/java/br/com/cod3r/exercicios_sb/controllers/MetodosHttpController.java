@@ -19,7 +19,7 @@ public class MetodosHttpController {
 	}
 	
 	@PostMapping
-	public String post() { //usados em formularios
+	public String post() { //usados em formularios 
 		return "Requisicao post";
 	}
 	

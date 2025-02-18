@@ -12,18 +12,14 @@ import br.com.cod3r.exercicios_sb.model.repositories.ProdutoRepository;
 @RestController
 @RequestMapping("/api/produtos")
 public class ProdutoController {
-	 
+
 	@Autowired
 	private ProdutoRepository produtoRepository;
-	
+
 	@PostMapping
-	public Produto novoProduto(@RequestParam String nome,
-							   @RequestParam double preco,
-							   @RequestParam double desconto) {
-		Produto produto = new Produto(nome, preco, desconto);
+	public Produto novoProduto(Produto produto) {
 		produtoRepository.save(produto);
 		return produto;
 	}
-	 
 
 }

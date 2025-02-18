@@ -1,5 +1,7 @@
 package br.com.cod3r.exercicios_sb.controllers;
 
+import java.util.Optional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -27,5 +29,9 @@ public class ProdutoController {
 	public Iterable<Produto> obterProdutos() {
 		return produtoRepository.findAll();
 	}
-	
+
+	@GetMapping(path = "/{id}")
+	public Optional<Produto> obterProdutoPorId(int id) {
+		return produtoRepository.findById(id);
+	}
 }

@@ -24,7 +24,7 @@ public class ProdutoController {
 	private ProdutoRepository produtoRepository;
 
 //	@PostMapping
-	@RequestMapping(method = {RequestMethod.POST, RequestMethod.PUT})
+	@RequestMapping(method = { RequestMethod.POST, RequestMethod.PUT })
 	public Produto salvarProduto(@Valid Produto produto) {
 		produtoRepository.save(produto);
 		return produto;
@@ -34,12 +34,18 @@ public class ProdutoController {
 	public Iterable<Produto> obterProdutos() {
 		return produtoRepository.findAll();
 	}
-	
+
+	@GetMapping(path = "/nome/{parteNome}")
+	public Iterable<Produto> obterProdutosPorNome(@PathVariable String parteNome) {
+		return produtoRepository.findByNomeContainingIgnoreCase(parteNome);
+	}
+
 	@GetMapping(path = "/pagina/{numeroPagina}/{qtdePagina}")
-	public Iterable<Produto> obterProdutoPorPagina(@PathVariable int numeroPagina, @PathVariable int qtdePagina){
-		
-		if(qtdePagina >=5)  qtdePagina = 5;
-		
+	public Iterable<Produto> obterProdutoPorPagina(@PathVariable int numeroPagina, @PathVariable int qtdePagina) {
+
+		if (qtdePagina >= 5)
+			qtdePagina = 5;
+
 		Pageable page = PageRequest.of(0, 3);
 		return produtoRepository.findAll(page);
 	}
@@ -48,13 +54,13 @@ public class ProdutoController {
 	public Optional<Produto> obterProdutoPorId(int id) {
 		return produtoRepository.findById(id);
 	}
-	
+
 //	@PutMapping
 //	public Produto alterarProduto(@Valid Produto produto){
 //		produtoRepository.save(produto);
 //		return produto;
 //	}
-	
+
 	@DeleteMapping(path = "/{id}")
 	public void excluirProduto(@PathVariable int id) {
 		produtoRepository.deleteById(id);
